@@ -28,7 +28,9 @@ This README provides a step-by-step guide to setting up a GPU-enabled environmen
 
 - Access [Cloud Build in Google Cloud](https://console.cloud.google.com/cloud-build). Press enable if it is not enabled yet.
 - Select "repositories" and then "connect repositories"
-  !(screenshots/image6.png)
+  ![connect repositories](screenshots/image9.png)
+- Select your repository
+  ![repo](screenshots/image10.png)
 - Configure the image name and other settings as needed.
 - Run the build and monitor the process in the 'History' tab.
 
