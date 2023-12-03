@@ -71,6 +71,8 @@ Setting up Continuous Deployment ensures that every push to master automatically
   Replace all project names,api keys, model names and etc, with your own!
 
 🚀 Model will be trained in cloud and restart the image if smth breaks, also update the image whenever we will make any changes. Each new train will load best weights so far.
+Monitor live training progress with Comet! 💫
+![Press SSH](screenshots/image20.png)
 
 ### SEPARATE QUESTION
 
