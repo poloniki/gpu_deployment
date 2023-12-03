@@ -64,7 +64,7 @@ Setting up Continuous Deployment ensures that every push to master automatically
 - Accept the installation of NVIDIA drivers and wait a few minutes.
   ![NVIDIA Drivers](screenshots/image19.png)
 - Authorize Docker: `gcloud auth configure-docker europe-southwest1-docker.pkg.dev`
-- Pull the Docker image: `docker pull europe-southwest1-docker.pkg.dev/wagon-bootcamp-355610/epicureai/epicureai_image:latest`
+- Pull the Docker image: `docker pull europe-southwest1-docker.pkg.dev/wagon-bootcamp-355610/epicureai/epicureai_image:latest` ℹ️ℹ️ THIS IMAGE IS BEEING PULLED FROM THE ARTIFACT REGISTRY, WHICH GOT THERE WITH CONTINIOUS DEPLOYMENT OF GOOGLE BUILD WE SETUP ON PREVIOUS STEP ℹ️ℹ️
 - Run Docker: `docker run --restart unless-stopped --shm-size=8g -d -e COMET_API_KEY=prlR2lPFdkjoiWB2n8SKwhvq0 -e EPOCHS=100 -e COMET_PROJECT_NAME=epicure -e COMET_MODEL_NAME=yolo-model -e COMET_WORKSPACE_NAME=poloniki --gpus all europe-southwest1-docker.pkg.dev/wagon-bootcamp-355610/epicureai/epicureai_image:latest`
 
   "-d" means detach = you can close terminal and it will still run
