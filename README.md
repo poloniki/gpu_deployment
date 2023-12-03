@@ -43,8 +43,11 @@ In order to avoid monopolizing our own machine or beeing dependant on the chips 
   ![git](screenshots/image11.png)
   Example of image name:
   europe-southwest1-docker.pkg.dev/$PROJECT_ID/facetally/facetally_image:latest
-- Run the build and monitor the process in the 'History' tab.
+- Run the build .
   ![run](screenshots/image14.png)
+- Monitor the process in the 'History' tab - if you press on the id you will see all of the process and errors if any.
+  ![error](screenshots/image15.png)
+- After the process will be finished your Image will be pushed to Artifact registry (where all your images are beeing stored)
 
 ## Creating a Virtual Instance with GPU
 
