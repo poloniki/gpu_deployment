@@ -26,6 +26,14 @@ This README provides a step-by-step guide to setting up a GPU-enabled environmen
 
 ## Setting Up Continuous Deployment
 
+In order to avoid monopolizing our own machine or beeing dependant on the chips our machine is using, it is better to set up CD, so that each time you push to master it redeploys you image in cloud and starts/continues training.
+
+- Access Artifact Registry - search for it in the Google Console Search panel on the top.
+- You should see this page, select "Create repository" on the top of your page
+  ![image](screenshots/image12.png)
+- Specify your project name and region like this
+  ![region](screenshots/image13.png)
+
 - Access [Cloud Build in Google Cloud](https://console.cloud.google.com/cloud-build). Press enable if it is not enabled yet.
 - Select "repositories" and then "connect repositories"
   ![connect repositories](screenshots/image9.png)
@@ -34,7 +42,7 @@ This README provides a step-by-step guide to setting up a GPU-enabled environmen
 - Configure the image name and other settings as showed on screen (change your project names).
   ![git](screenshots/image11.png)
   Example of image name:
-  europe-southwest1-docker.pkg.dev/$PROJECT_ID/facetally/facetally_image
+  europe-southwest1-docker.pkg.dev/$PROJECT_ID/facetally/facetally_image:latest
 - Run the build and monitor the process in the 'History' tab.
 
 ## Creating a Virtual Instance with GPU
