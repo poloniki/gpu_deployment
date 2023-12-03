@@ -23,6 +23,7 @@ I will also attach a [train.py](train.py) and [params.py](params.py) to this rep
 ## Creating a Dockerfile for Training
 
 - Name the Dockerfile `Dockerfile.training`.
+- Follow the same logic like in the example [Dockerfile.training](Dockerfile.training)
 - Two different Dockerfiles are required as they serve different purposes: the training Dockerfile and the prediction Dockerfile. The latter is usually lighter as it only needs to run the prediction function. An example Dockerfile for Ultralytics is provided in this repository.
 
 ## Setting Up Continuous Deployment
