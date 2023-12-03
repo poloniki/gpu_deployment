@@ -24,11 +24,11 @@ This README provides a step-by-step guide to setting up a GPU-enabled environmen
 
 ## Securely Passing Credentials to a Remote Docker Container
 - Visit [Prefect Cloud](https://app.prefect.cloud/).
-  ![Prefect Cloud](https://prnt.sc/sVd-LbKRusNQ)
+  ![Prefect Cloud](screenshots/image3.png)
 - Navigate to 'Blocks' and choose 'Add New Block'.
-  ![Add New Block](https://prnt.sc/ctnRAEvNkvDP)
+  ![Add New Block](screenshots/image4.png)
 - Search for 'GCP' and fill in the necessary details.
-  ![GCP Search](https://prnt.sc/BWqhDm56w9Pv)
+  ![GCP Search](screenshots/image5.png)
 - Include `prefect_gcp` in your `requirements.txt`.
 - Load credentials in your Python script as follows:
     ```python
@@ -47,11 +47,11 @@ This README provides a step-by-step guide to setting up a GPU-enabled environmen
 
 ## Creating a Virtual Instance with GPU
 - Go to [Google Cloud VM Instances](https://console.cloud.google.com/compute/instances).
-  ![Google Cloud VM Instances](https://prnt.sc/Kl4Om05x3bBs)
+  ![Google Cloud VM Instances](screenshots/image6.png)
 - Create a new instance, ensuring to select 'Deploy Container' and enter the Docker image name.
-  ![Deploy Container](https://prnt.sc/5yz35u-diI7h)
+  ![Deploy Container](screenshots/image7.png)
 - Set environmental variables as required.
-  ![Environmental Variables](https://prnt.sc/OM8cm9Fem34Z)
+  ![Environmental Variables](screenshots/image8.png)
 - Choose the appropriate boot disk size and other configurations.
 
 Remember to use the command line for similar operations if preferred. Detailed instructions are provided.
