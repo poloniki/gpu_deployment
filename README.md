@@ -31,7 +31,10 @@ This README provides a step-by-step guide to setting up a GPU-enabled environmen
   ![connect repositories](screenshots/image9.png)
 - Select your repository
   ![repo](screenshots/image10.png)
-- Configure the image name and other settings as needed.
+- Configure the image name and other settings as showed on screen (change your project names).
+  ![git](screenshots/image11.png)
+  Example of image name:
+  europe-southwest1-docker.pkg.dev/$PROJECT_ID/facetally/facetally_image
 - Run the build and monitor the process in the 'History' tab.
 
 ## Creating a Virtual Instance with GPU
