@@ -4,7 +4,7 @@ This README provides a step-by-step guide to setting up a GPU-enabled environmen
 
 I will also attach a [train.py](train.py) and [params.py](params.py) to this repo, where you can see, how you can Train yolo with ultralytics - Save model to production if this model is better then the ones before. Load weights from the best model from production and log all the training live.
 
-# 🚨🚨🚨 DO NOT FORGET TO CHANGE CLOUD PROJECT NAMES/ API KEYS/ EXPERIMENT NAMES/ MODEL NAMES / etc.. 🚨🚨🚨
+## 🚨🚨🚨 DO NOT FORGET TO CHANGE CLOUD PROJECT NAMES/ API KEYS/ EXPERIMENT NAMES/ MODEL NAMES / etc.. 🚨🚨🚨
 
 ## Table of Contents
 
