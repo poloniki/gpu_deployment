@@ -1,6 +1,6 @@
-# README: Setting Up a GPU-Enabled Docker Environment for Machine Learning
+# README: Setting Up a GPU-Enabled Docker Environment in cloud for training
 
-This README provides a step-by-step guide to setting up a GPU-enabled environment in Google Cloud, building a Docker container for machine learning purposes, and deploying it.
+This README provides a step-by-step guide to setting up a GPU-enabled environment in Google Cloud, building a Docker container for training the models.
 
 I will also attach a [train.py](train.py) and [params.py](params.py) to this repo, where you can see, how you can Train yolo with ultralytics - Save model to production if this model is better then the ones before. Load weights from the best model from production and log all the training live.
 
