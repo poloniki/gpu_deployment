@@ -28,7 +28,7 @@ I will also attach a [train.py](train.py) and [params.py](params.py) to this rep
 
 ## Setting Up Continuous Deployment
 
-Setting up Continuous Deployment ensures that every push to master automatically redeploys your image in the cloud and starts/continues training, making your machine's resources and chipset irrelevant.
+Setting up Continuous Deployment ensures that every push to master automatically redeploys your image in the cloud withoud having to deal with internet speed or any local issues.
 
 - Access the Artifact Registry - search for it in the Google Console Search panel at the top.
 - You should see this page, click "Create repository" at the top.
