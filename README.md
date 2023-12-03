@@ -11,9 +11,9 @@ This README provides a step-by-step guide to setting up a GPU-enabled environmen
 
 ## Requesting GPU Quota from Google Cloud
 - Navigate to [Google Cloud Quotas Page](https://console.cloud.google.com/iam-admin/quotas).
-  ![Google Cloud Quotas Page](https://prnt.sc/R9Ygo1PD8fwu)
+  ![Google Cloud Quotas Page](screenshots/image1.png)
 - Search for "T4 GPU" and select "Commited NVIDIA T4 GPUs".
-  ![T4 GPU Selection](https://prnt.sc/Fv0T_UECJxoJ)
+  ![T4 GPU Selection](screenshots/image2.png)
 - Choose all European regions and click 'Edit Quotas'.
 - In the request form, specify you need 1 GPU and provide a brief description of your project.
 
