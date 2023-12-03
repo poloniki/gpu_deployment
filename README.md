@@ -44,6 +44,7 @@ In order to avoid monopolizing our own machine or beeing dependant on the chips 
   Example of image name:
   europe-southwest1-docker.pkg.dev/$PROJECT_ID/facetally/facetally_image:latest
 - Run the build and monitor the process in the 'History' tab.
+  ![run](screenshots/image14.png)
 
 ## Creating a Virtual Instance with GPU
 
